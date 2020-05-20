@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 한국행정연구원 설문조사 데이터 현황 설문지 데이터 다운받기([한국행정연구원 설문조사](https://www.data.go.kr/dataset/15004274/fileData.do))
 
 'haven' package를 사용하여 SPSS 파일을 불러올수 있다.
-```{R}
+```
 #install.packages("haven")
 library(haven)
 #SPSS 데이터 파일인 SAV 파일을 불러오기
